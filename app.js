@@ -108,7 +108,7 @@ class Countdown {
 }
 
 
-const countdown = new Countdown("August 7, 2021")
+const countdown = new Countdown("August 21, 2021")
 countdown.calculateTime(Date.now())
 
 setInterval(() => countdown.calculateTime(Date.now()), 1000)
